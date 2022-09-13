@@ -1,0 +1,116 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card {
+  width: 150px;                 /* Set width of cards */
+  border: 1px solid #000000;    /* Set up Border */
+  border-radius: 3px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+}
+.card-header {
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  border-bottom: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+.card-main {
+  display: flex;        
+  text-align: center;      /* Children use Flexbox */
+  flex-direction: column;     /* Rotate Axis to Vertical */
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;        /* Group Children in Center (+axis) */
+  padding: 15px 0;            /* Add padding to the top/bottom */
+}
+.card1 {
+  width: 150px;                 /* Set width of cards */
+  border: 1px solid #ffffff;    /* Set up Border */
+  border-radius: 3px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+}
+.card1-header {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  border-bottom: 1px solid #000000;
+  background-color: #000000;
+  padding: 10px 20px;
+}
+
+.card1-main {
+  display: flex;        
+  text-align: center;      /* Children use Flexbox */
+  flex-direction: column;     /* Rotate Axis to Vertical */
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;        /* Group Children in Center (+axis) */
+  padding: 15px 0;            /* Add padding to the top/bottom */
+  background-color: #000000;
+  color: #ffffff; }
+
+  .card2 {
+    width: 150px;                 /* Set width of cards */
+    border: 1px solid #000000;    /* Set up Border */
+    border-radius: 3px;           /* Slightly Curve edges */
+    overflow: hidden;             /* Fixes the corners */  display: flex;                /* Children use Flexbox */
+    flex-direction: column;       /* Rotate Axis */
+  }
+  .card2-header {
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ce9595;
+    padding: 10px 20px;
+  }
+  
+  .card2-main {
+    display: flex;        
+    text-align: center;      /* Children use Flexbox */
+    flex-direction: column;     /* Rotate Axis to Vertical */
+    justify-content: center;    /* Group Children in Center */
+    align-items: center;        /* Group Children in Center (+axis) */
+    padding: 15px 0;            /* Add padding to the top/bottom */
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .card3 {
+    width: 150px;                 /* Set width of cards */
+    border: 1px solid #000000;    /* Set up Border */
+    border-radius: 3px;           /* Slightly Curve edges */
+    overflow: hidden;             /* Fixes the corners */  display: flex;                /* Children use Flexbox */
+    flex-direction: column;       /* Rotate Axis */
+  }
+  .card3-header {
+    color: #ff0000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .card3-main {
+    display: flex;        
+    text-align: center;      /* Children use Flexbox */
+    flex-direction: column;     /* Rotate Axis to Vertical */
+    justify-content: center;    /* Group Children in Center */
+    align-items: center;        /* Group Children in Center (+axis) */
+    padding: 15px 0;            /* Add padding to the top/bottom */
+    background-color: #ffffff;
+    color: #000000;
+  }
+

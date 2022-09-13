@@ -1,0 +1,38 @@
+body {
+  color: rgb(255, 217, 0);
+  background-color: crimson;
+  border-bottom-style:groove;
+  border-bottom-width: thick;
+  border-top-style: groove;
+  border-top-width: thick;
+  border-color:lime;
+  font-family: cursive;
+}
+
+h1 {
+  color: rgb(0, 255, 0);
+  font-family: monospace;
+}
+p { 
+  color:springgreen
+}
+h2 {
+  color: yellow
+}
+table, th, td {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
