@@ -1,0 +1,85 @@
+body {
+  background-color: #FBF2CF;
+  padding-bottom: 50px;
+}
+
+h1 {
+
+position: absolute;
+width: 1200px;
+height: 293px;
+left: 120px;
+top: 64px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 100px;
+line-height: 44px;
+text-align: center;
+
+color: #FA7070;
+}
+/* Line 1 */
+hr {
+position: absolute;
+width: 1200px;
+height: 0px;
+left: 150px;
+top: 300px;
+position: center;
+
+border: 3px solid #FA7070;
+transform: rotate(0deg);
+}
+
+h2 {
+
+  position: absolute;
+  width: 1200px;
+  height: 140;
+  left: 136px;
+  top: 357px;
+  
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 44px;
+  text-align: center;
+  
+  color: #FA7070;
+}
+
+.bermanpng {
+  position: absolute;
+  left: 535px;
+  top: 475px
+}
+h4 {
+position: absolute;
+width: 1200px;
+height: 48px;
+left: 136px;
+top: 860px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FA7070;
+}
+
+
+a {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: italic;
+  color: #FA7070;
+  left: 695px;
+  top: 1000px;
+  padding-bottom: 50px;
+}

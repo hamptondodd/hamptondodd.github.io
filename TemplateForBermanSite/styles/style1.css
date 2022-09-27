@@ -1,0 +1,58 @@
+body {
+    background-color: #FBF2CF;
+}
+
+
+h1 {
+    position: absolute;
+    width: 776px;
+    height: 222px;
+    left: 0px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #FA7070;
+}
+
+.prize {
+    position: absolute;
+    width: 271.55px;
+    height: 400px;
+    left: 900px;
+    top: 61px;
+}
+
+h2 {
+    position: absolute;
+    width: 706px;
+    height: 209px;
+    left: 580px;
+    top: 550px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 20px;
+
+    color: #FA7070;
+}
+
+.centaur {
+    position: absolute;
+    width: 413.06px;
+    height: 400px;
+    left: 100px;
+    top: 490px;
+    padding-bottom: 50px;
+}
+
