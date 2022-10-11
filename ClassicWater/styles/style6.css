@@ -1,0 +1,70 @@
+body {
+    background-color: #FBF2CF;
+}
+
+
+h1 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #FA7070;
+}
+
+
+a.outlink {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 50px;
+    color: #FA7070;
+    left: 605px;
+    top: 300px;
+}
+
+a.outlinktwo {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 50px;
+    color: #FA7070;
+    left: 620px;
+    top: 400px;
+}
+
+a.outlinkthree {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 50px;
+    color: #FA7070;
+    left: 620px;
+    top: 500px;
+}
+
+a {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: italic;
+    color: #FA7070;
+    left: 695px;
+    top: 700px;
+    padding-bottom: 50px;
+}
+
+
+
+hr {
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 100px;
+    top: 150px;
+    position: center;
+    
+    border: 3px solid #FA7070;
+    transform: rotate(0deg);
+    }

@@ -1,0 +1,41 @@
+body {
+    background-color: #FBF2CF;
+}
+
+
+h1 {
+   
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #FA7070;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.santas {
+    position: absolute;
+    width: 474.63px;
+    height: 500px;
+    left: 455px;
+    top: 500px;
+}
+
+a {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: italic;
+    color: #FA7070;
+    left: 695px;
+    top: 1000px;
+    padding-bottom: 50px;
+  }

@@ -1,0 +1,48 @@
+body {
+    background-color: #FBF2CF;
+}
+
+
+h1 {
+    
+    position: absolute;
+    width: 1512.1px;
+    height: 232.25px;
+    left: 1px;
+    top: 550px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #FA7070;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.face {
+    position: absolute;
+    width: 830.08px;
+    height: 400px;
+    left: 325px;
+    top: 50px;
+
+
+}
+
+a {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: italic;
+    color: #FA7070;
+    left: 695px;
+    top: 1000px;
+    padding-bottom: 50px;
+  }

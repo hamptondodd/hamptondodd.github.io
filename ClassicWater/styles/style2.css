@@ -20,9 +20,9 @@ h1 {
     color: #FA7070;
 }
 
-.prize {
+.radio {
     position: absolute;
-    width: 271.55px;
+    width: 400px;
     height: 400px;
     left: 900px;
     top: 61px;
@@ -47,13 +47,13 @@ h2 {
     color: #FA7070;
 }
 
-.centaur {
+.headlights {
     position: absolute;
-    width: 413.06px;
-    height: 400px;
+    width: 400.51px;
+    height: 203.93px;
     left: 100px;
-    top: 490px;
-    padding-bottom: 50px;
+    top: 600px;
+    padding-bottom: 0px;
 }
 a {
     position: absolute;

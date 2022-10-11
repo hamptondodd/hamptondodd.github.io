@@ -4,11 +4,8 @@ body {
 
 
 h1 {
-    position: absolute;
-    width: 776px;
-    height: 222px;
-    left: 0px;
-    top: 50px;
+    display: flex;
+    justify-content: center;
 
     font-family: 'Inter';
     font-style: italic;
@@ -20,12 +17,12 @@ h1 {
     color: #FA7070;
 }
 
-.prize {
+.classic {
     position: absolute;
-    width: 271.55px;
+    width: 436.91px;
     height: 400px;
-    left: 900px;
-    top: 61px;
+    left: 500px;
+    top: 250px;
 }
 
 h2 {
@@ -47,20 +44,13 @@ h2 {
     color: #FA7070;
 }
 
-.centaur {
-    position: absolute;
-    width: 413.06px;
-    height: 400px;
-    left: 100px;
-    top: 490px;
-    padding-bottom: 50px;
-}
+
 a {
     position: absolute;
     font-family: 'Inter';
     font-style: italic;
     color: #FA7070;
     left: 695px;
-    top: 1000px;
+    top: 800px;
     padding-bottom: 50px;
   }
