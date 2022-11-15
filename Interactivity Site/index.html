@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Richard Gere Funzone</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
+</head>
+    
+<body>
+    <h2> Richard Gere is a good actor.</h2>
+    <h3> Click my image. Please.</h3>
+    <img id="gere" class="gereimage" src="assets/img/gere.jpg">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="gere-chat"> </div>
+    <br>
+    <p> I was in the film Pretty Woman and also I was in Primal Fear.</p>
+    <div id="gere-scroll"> 
+        As Richard Gere I was born in Pennsylvania. Some have said my middle name is Tiffany but I am here to tell you that no, it is not, and to defend my legacy as a leading man in great cinema.
+        <br>
+        <br>
+        As I grew as Richard Gere I became an activist, an officer, and a gentleman. In 2010, I critiqued the Iraq War and called President Bush a bad president. This launched my career in political public statements.
+    </div>
+    <p id="demo"></p>
+    <p> Please, click on my face, a face in interlocution with great leaders of the world, to grant me an Oscar to further cement my legacy. </p>
+    <img id="geretibet" class="geretibet" src="assets/img/geretibet.jpg">;
+    <img id="geremodi" class="geremodi" src="assets/img/geremodi.jpg">;
+    <img id="oscar" class="oscar" src="assets/img/oscar3.png">;
+
+
+    
+    
+    
+    
+    <script> 
+    let gereEl = document.getElementById("gere");
+    let gereChat = document.getElementById("gere-chat");
+    let onGereClick = function() {
+        gereChat.textContent = "Welcome to my website, I am Richard Gere, the good actor. I have created this to defend my legacy.";
+    };
+    gereEl.addEventListener("click", onGereClick);
+
+    document.getElementById("gere-scroll").onscroll = function(){myFunction()};
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "I won a Golden Globe for Billy Flynn that I have on a shelf in my kitchen and it is popular when I entertain guests, many of which are famous";
+    }
+    
+    var gereModi = document.getElementById("geremodi");
+    var onModiClick = function(e) {
+        var oscarPic = document.getElementById("oscar");
+        oscarPic.style.top = (e.clientY - 20) + "px";
+        oscarPic.style.left = (e.clientX - 45) + "px";
+    };
+    gereModi.addEventListener("click", onModiClick);
+    </script>
+</body>
+
+</html> 
