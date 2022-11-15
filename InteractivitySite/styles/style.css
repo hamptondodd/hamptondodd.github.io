@@ -35,3 +35,7 @@ div {
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+element.style {
+  cursor: pointer;
+  }
