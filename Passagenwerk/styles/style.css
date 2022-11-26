@@ -1,0 +1,70 @@
+body {
+  color:rgb(35, 87, 63);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+h1 {
+  color:rgb(35, 87, 63);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.introintro {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.introintrointro {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+
+.microintro {
+  display: flex;
+  justify-content:center;
+  padding-right: 10px;
+
+}
+
+.microintrotwo {
+  display: flex;
+  justify-content:center;
+  padding-right: 10px;
+}
+
+.midarcade {
+  display: flex;
+  justify-content: center;
+  opacity: 80%;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color:rgb(35, 87, 63);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(250,195,185);
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(255, 239, 149);
+}
+
+a:visited {
+  color: rgb(35, 87, 63);;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
