@@ -102,7 +102,7 @@ a:visited {
 
 /* Fade in left */
 .fadeInLeft{
-   background-image: url(/Users/hamptondodd/Documents/GitHub/hamptondodd.github.io/Passagenwerk/assets/img/AIVero1.png);
+   background-image: url(hamptondodd.github.io/Passagenwerk/assets/img/AIVero1.png);
   -webkit-animation: fadeInLeft 1.2s both; /* Safari 4+ */
   -moz-animation: fadeInLeft 1.2s both; /* Fx 5+ */
   -o-animation: fadeInLeft 1.2s both; /* Opera 12+ */
@@ -160,7 +160,7 @@ a:visited {
 
 /* Fade in top */
 .fadeInTop {
-   background-image: url(./assets/img/AIVero2.png);
+   background-image: url(hamptondodd.github.io/Passagenwerk/assets/img/AIVero2.png);
   -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
   -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
   -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
@@ -213,7 +213,7 @@ a:visited {
 
 /* Fade in right */
 .fadeInRight {
-   background-image: url(./assets/img/AIVero3.png);
+   background-image: url(hamptondodd.github.io/Passagenwerk/assets/img/AIVero3.png);
   -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
   -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
   -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
