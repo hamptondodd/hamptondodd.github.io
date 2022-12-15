@@ -3,11 +3,24 @@
   margin: 0;
 }
 
+body {
+  background-color: black;
+}
+
+h1 {
+  color:rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 20px;
+}
+
 #header {
   text-align: center;
   min-height: 60px;
   border: 1px solid rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
+  
 
 }
 
@@ -17,26 +30,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(255, 255, 255);
-  background-color: antiquewhite;
+  background-color: black;
 }
 
 #home {
-  font-size: xx-large;
-  color: rgb(35, 87, 63);
-  opacity: 80%;
+  font-size: 55px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
 }
 
 #about {
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  align-content: center;
+  width: auto;
   text-align: center;
-  color:rgb(35, 87, 63);
-  opacity: 80%;
+  color:rgb(255, 255, 255);
+  opacity: 100%;
   font-size: small;
   font-style: italic;
+  background-color: black;
+  padding: 5px;
 }
 
+#aboutid {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border: 5px white solid;
+  padding: 15px;
+}
 #contact {
-  background-color: antiquewhite;
+  background-color: black;
 }
 
 #contacttwo {
@@ -45,23 +71,33 @@
   justify-content: center;
   align-items: center;
   border: 1px solid white;
-  background-color: antiquewhite;
+  background-color: black;
 }
-a {
-  color:rgb(35, 87, 63);
+
+.proceed-sec {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+.proceed {
+  color:rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(250, 250, 141);
+  font-size: large;
+  background-color: rgb(0, 0, 0);
   padding: 1em 1.5em;
   text-decoration: none;
+  border: white solid 5px;
+
 }
 
-a:hover {
-  background-color: rgb(255, 217, 0);
+.proceed:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
-a:visited {
-  color: rgb(35, 87, 63);;
-}
+
 
 #sectionThree {
   height: 1000px;
@@ -69,19 +105,19 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(255, 255, 255);
-  background-color: antiquewhite;
+  background-color: rgb(0, 0, 0);
   padding: 100px;
+  margin-top: 50px;
 }
 
 #containerThree {
   margin: 25px; 
   padding:50px;
-  background-color: antiquewhite;
+  background-color: rgb(0, 0, 0);
 }
 
 .fader {
-  opacity: 0.25;
+  opacity: 0.15;
 }
 
 
@@ -92,8 +128,8 @@ a:visited {
   }
 
 .animated{
-  width: 400px;
-  height: 400px;
+  width: 325px;
+  height: 325px;
   background-position: center;
   background-size: cover;
 }
@@ -102,7 +138,7 @@ a:visited {
 
 /* Fade in left */
 .fadeInLeft{
-   background-image: url(../assets/img/AIVero1.png);
+   background-image: url(/assets/img/AIVero1.png);
   -webkit-animation: fadeInLeft 1.2s both; /* Safari 4+ */
   -moz-animation: fadeInLeft 1.2s both; /* Fx 5+ */
   -o-animation: fadeInLeft 1.2s both; /* Opera 12+ */
@@ -160,7 +196,7 @@ a:visited {
 
 /* Fade in top */
 .fadeInTop {
-   background-image: url(../assets/img/AIVero2.png);
+   background-image: url(/assets/img/AIVero2.png);
   -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
   -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
   -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
@@ -213,7 +249,7 @@ a:visited {
 
 /* Fade in right */
 .fadeInRight {
-   background-image: url(../assets/img/AIVero3.png);
+   background-image: url(/assets/img/AIVero3.png);
   -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
   -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
   -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
@@ -274,3 +310,70 @@ a:visited {
   justify-content: center;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+  float: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  }
+
+  .other-sec {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: 400px;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    height: 400px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;  
+    text-align: center;
+    
+  }
+
+.icon {
+    width: auto;
+    height: 400px;
+    margin-top: 30px;
+  }
+  
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -10,17 +10,17 @@ const observer = new IntersectionObserver(entries => {
 
 observer.observe(document.querySelector(".container"));
 
-///const observerTwo = new IntersectionObserver(entries => {
- ///   entries.forEach(entry => {
- //       if(entry.isIntersecting){
+//const observerTwo = new IntersectionObserver(entries => {
+//    entries.forEach(entry => {
+//       if(entry.isIntersecting){
 //            document.querySelectorAll(".animatedtwo")[0].classList.add("fadeInDown");
- //           document.querySelectorAll(".animatedtwo")[1].classList.add("fadeInDown");
- //           document.querySelectorAll(".animatedtwo")[2].classList.add("fadeInDown");
- //       }
- //   })
+//            document.querySelectorAll(".animatedtwo")[1].classList.add("fadeInDown");
+//            document.querySelectorAll(".animatedtwo")[2].classList.add("fadeInDown");
+//        }
+//   })
 //})
 
-/// observerTwo.observe(document.querySelector(".containertwo"));
+//observerTwo.observe(document.querySelector(".containertwo"));
 
 
 
@@ -50,4 +50,4 @@ fadeIn('slow');
       
       });
       
-  });
+});

@@ -54,7 +54,7 @@ h1 {
 }
 
 
-a {
+#nav  a {
   color:black;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
@@ -62,11 +62,11 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+#nav a:hover {
   background-color: rgb(250,195,185);
 }
 
-a:visited {
+#nav a:visited {
   color: rgb(35, 87, 63);
 }
 
@@ -124,20 +124,112 @@ a:visited {
   display: flex;
   justify-content: center;
   align-content: center;
-  min-height: 20vh;
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 1s;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
+  font-size: large;
   color: white;
+  margin-top: 10px;
+}
+
+.hidden a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.hidden a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
 }
 
 .show {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+  
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+  float: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  }
+
+  /* new code below */
+
+.resource-class {
+  display: flex;
+  justify-content: center;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  opacity: 70%;
+}
+
+.quote {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.quote-div {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border: 5px solid white;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  padding-top: 60px;
+  letter-spacing: 1px;
+}
+
+.quote-p {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
 }
 
 .icon {
